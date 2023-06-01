@@ -5,7 +5,7 @@ const Itelefone = document.querySelector("#telefone");
 const Isenha = document.querySelector("#senha");
 
 function cadastrar(){
-    fetch("http://localhost:8000/cadastrar", 
+    fetch("http://localhost:8080/usuarios", 
     {
         headers: {
             'Accept': 'application/json',
